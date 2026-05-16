@@ -1,0 +1,246 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    align-items: center;
+    border-bottom: 5px solid black;
+    padding: 0px 40px 15px;
+}
+.navbar .logo img{
+    width: 40px;
+    height: 40px;
+}
+.navbar .menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-weight:bold;
+}
+.navbar .menu a:hover{
+    color: black;
+}
+.navbar .icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+
+    
+}
+.navbar .icons i{
+    cursor: pointer;
+}
+.maincontainer{
+height: 500px;
+width: 100%;
+}
+.head{
+    height: 150px;
+    width: 100%;
+    background-color: plum;align-items: center;
+    justify-content: center;
+    padding: 50px;
+    /* display: flex; */
+}
+.head h1{
+    font-size: large;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.head p{
+    font-size: 20px;
+    max-width: 600px;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.footer .footer-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    color: white;
+}
+.footer .footer-container .footer-col{
+    flex: 1 1 220px;
+    color: white;
+}
+.footer .footer-container .footer-col h3{
+    margin-bottom: 15px;
+    color: blue;
+}
+.footer .footer-container .footer-col ul{
+    list-style: none;
+    padding: 0;
+    color: blue;
+}
+.footer .footer-container .footer-col ul li{
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+}
+.footer .footer-container .footer-col ul li:hover{
+    color: blue;
+}
+.footer .footer-container .footer-col .brand .logo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: blue;
+}
+.footer .footer-container .footer-col .brand p{
+    margin-bottom: 10px;
+    color: white;
+}
+.footer .footer-container .footer-col .policies{
+    margin-top: 15px;
+    color: white;
+}
+.footer .footer-container .footer-col .policies a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.footer .footer-container .footer-col .policies a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.footer .footer-container .footer-col .tagline{
+    font-weight: bold;
+    color: blue;
+}
+.footer .footer-container .footer-col .footer-bottom{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+}
+.content{
+    height: 200vh;
+    width: 100%;
+    /* background-color: peachpuff; */
+}
+.content .title h1{
+    font-size: 36px bold;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    /* background-color: blue; */
+}
+.left{
+    height: 50vh;
+    width: 50%;
+    /* background-color: aquamarine; */
+    background-image: url(mission.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .right h2{
+    font-size: large bold;
+    padding: 20px 50px;
+    justify-content: center;
+}
+.container .right p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.vision{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.left-bar{
+    height: 50vh;
+    width: 50%;
+}
+.left-bar h2{
+   font-size: large bold;
+    padding: 20px 50px;
+    justify-content: center; 
+}
+.left-bar p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.right-bar{
+    background-image: url(vission.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50%;
+}
+.purpose{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    /* background-color: blue; */
+}
+.purpose .leftbar{
+    height: 50vh;
+    width: 50%;
+    background-image: url(purpose.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.purpose .rightbar h2{
+   font-size: 20px;
+   padding:20px 50px;
+} 
+.purpose .rightbar p{
+   font-size: large bold;
+    padding: 20px 50px;
+    justify-content: center; 
+    line-height: 1.6; 
+}
+.text h3{
+    font-size: 20px;
+    justify-content: center;
+} 
+.text p{
+   font-size: 20px;
+   line-height: 1.0;
+    padding: 20px 50px;
+    justify-content: center; 
+}
+.floating {
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+.whatsapp {
+  bottom: 20px;
+  background: #25D366;
+}
+.email {
+  top: 50%;
+  background: #ffd400;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
